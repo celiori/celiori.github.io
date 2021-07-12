@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'FerriteCoreDX-Display';
+  src: url('FerriteCoreDX-Display.ttf')
+}
+
+@font-face {
+  font-family: 'FerriteCoreDX-Regular';
+  src: url('FerriteCoreDX-Regular.ttf')
+}
+
+@font-face {
+  font-family: 'FoundersGroteskText-Regular';
+  src: url('https://static.wixstatic.com/ufonts/b0b75e_e87face4f8ba46148e54373dd89822d2/woff/file.woff');
+}
+
+body {
+  margin: 0;
+}
