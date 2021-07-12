@@ -1,1 +1,86 @@
+@font-face {
+  font-family: 'FerriteCoreDX-Display';
+  src: url('FerriteCoreDX-Display.ttf')
+}
 
+@font-face {
+  font-family: 'FerriteCoreDX-Regular';
+  src: url('FerriteCoreDX-Regular.ttf')
+}
+
+@font-face {
+  font-family: 'FoundersGroteskText-Regular';
+  src: url('https://static.wixstatic.com/ufonts/b0b75e_e87face4f8ba46148e54373dd89822d2/woff/file.woff');
+}
+  
+body {
+  background-color: #CCCCCC;
+  margin: 0;
+}
+
+#index {
+}
+
+#backgroundvideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -10;
+}
+
+.header {
+  background: #000;
+  box-shadow: 0 0 10pt rgba(0,0,0,0.5);
+}
+
+.headerlink {
+  user-select: none;
+  text-decoration: none;
+  font-size: 18pt;
+  color: white;
+  font-family: FerriteCoreDX-Regular;
+  padding-left: 20pt;
+}
+
+.headerlink:hover {
+  color: grey;
+}
+
+#divider {
+  user-select: none;
+  font-size: 100%;
+  color: white;
+  font-family: FerriteCoreDX-Regular;
+}
+
+#logo {
+  margin: auto;
+  width: 40%;
+  margin-top: 50pt;
+  display: block;
+  user-select: none;
+}
+
+#desc {
+  font-family: FoundersGroteskText-Regular;
+  width: 30%;
+  font-size: 12pt;
+  margin: auto;
+  text-align: center;
+  margin-top: 40pt;
+}
+
+#socials {
+  width: 600pt;
+  margin: auto;
+  display: block;
+  margin-top: 50pt;
+}
+
+.socialbutton {
+  width: 50pt;
+  padding-left: 20pt;
+  padding-right: 20pt;
+}
