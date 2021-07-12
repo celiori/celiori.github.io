@@ -1,0 +1,52 @@
+#login {
+  background-image: url("RANujn.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#idcard {
+  Width: 100pt;
+  margin: auto;
+  margin-top: 25%;
+  display: block;
+  border: 15pt solid black;
+  background-color: black;
+  border-radius: 10pt;
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated; 
+  /* box-shadow: 0 0 10pt rgba(0,0,0,0.3) */
+}
+
+#notfound {
+  font-size: 18pt;
+  color: white;
+  font-family: FerriteCoreDX-Regular;
+  background-color: black;
+  border: 10pt solid black;
+  margin-top: 65pt;
+  border-radius: 10pt;
+  box-shadow: 0 0 10pt rgba(0,0,0,0.3);
+}
+
+input[type=text] {
+  color: white;
+  width: 120pt;
+  margin: auto;
+  margin-top: 10pt;
+  display: block;
+  background-color: black;
+  border: 5pt solid black;
+  border-radius: 10pt;
+  box-shadow: 0 0 10pt rgba(0,0,0,0.3);
+}
+
+#ripple {
+  width: 300pt;
+  margin: auto;
+}
