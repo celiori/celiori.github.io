@@ -72,5 +72,7 @@ body {
 }
 
 #spotifyembed {
-  margin: 20pt;
+  margin: auto;
+  border: 20pt solid black;
+  width: 600pt;
 }
