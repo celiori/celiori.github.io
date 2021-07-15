@@ -13,6 +13,14 @@
   src: url('https://static.wixstatic.com/ufonts/b0b75e_e87face4f8ba46148e54373dd89822d2/woff/file.woff');
 }
 
+:root {
+  --background-color: #5e7281;
+}
+
 body {
   margin: 0;
+  background-color: var(--background-colour);
+  background-image: url('Media/BackgroundGradient.png');
+  background-repeat: no-repeat;
+  width: fit-content;
 }
