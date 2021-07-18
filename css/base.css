@@ -13,5 +13,5 @@ body {
   background-color: var(--background-colour);
   background-image: url('/media/BackgroundGradient.png');
   background-repeat: no-repeat;
-  width: fit-content;
+  width: 100%;
 }
