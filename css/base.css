@@ -11,7 +11,8 @@
 body {
   margin: 0;
   background-color: var(--background-colour);
-  background-image: url('/media/BackgroundGradient.png');
-  background-repeat: no-repeat;
+}
+
+.background_img {
   width: 100%;
 }
